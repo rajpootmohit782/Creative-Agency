@@ -1,7 +1,7 @@
-import { AiOutlineCalendar } from "react-icons/ai"
-import { TfiRulerPencil } from "react-icons/tfi"
-import { VscFileSubmodule } from "react-icons/vsc"
-import { BiUser } from "react-icons/bi"
+import { AiOutlineCalendar } from "react-icons/ai";
+import { TfiRulerPencil } from "react-icons/tfi";
+import { VscFileSubmodule } from "react-icons/vsc";
+import { BiUser } from "react-icons/bi";
 
 export const home = [
   {
@@ -20,63 +20,84 @@ export const home = [
     icon: <BiUser size={25} />,
     title: "Customer satisfaction is our top priority",
   },
-]
+];
 export const expertise = [
   {
     id: 1,
     title: "Web Design & Development",
     cover: "../images/e1.jpg",
-    desc: [{ text: "Web design" }, { text: "Web development" }, { text: "Custom icons & illustrations" }, { text: "Hosting" }, { text: "Website audit" }],
+    desc: [
+      { text: "Web design" },
+      { text: "Web development" },
+      { text: "Custom icons & illustrations" },
+      { text: "Hosting" },
+      { text: "Website audit" },
+    ],
   },
   {
     id: 2,
     title: "Digital Marketing",
     cover: "../images/e2.jpg",
-    desc: [{ text: "Social media marketing" }, { text: "Marketing campaigns" }, { text: "Markting management" }, { text: "SEO" }],
+    desc: [
+      { text: "Social media marketing" },
+      { text: "Marketing campaigns" },
+      { text: "Markting management" },
+      { text: "SEO" },
+    ],
   },
   {
     id: 3,
     title: "E-Commerce",
     cover: "../images/e3.jpg",
-    desc: [{ text: "E-Commerce website design" }, { text: "WooCommerce" }, { text: "Content management" }, { text: "Hosting" }],
+    desc: [
+      { text: "E-Commerce website design" },
+      { text: "WooCommerce" },
+      { text: "Content management" },
+      { text: "Hosting" },
+    ],
   },
   {
     id: 4,
     title: "Branding & Creative Services",
     cover: "../images/e4.jpg",
-    desc: [{ text: "Visual identity" }, { text: "Branding for social media" }, { text: "Custom illustrations" }],
+    desc: [
+      { text: "Visual identity" },
+      { text: "Branding for social media" },
+      { text: "Custom illustrations" },
+    ],
   },
-]
+];
 export const testimonial = [
   {
     id: 1,
-    name: "Alexander Black",
+    name: "Emma Watson",
     cover: "../images/e1.jpg",
-    post: "Seven consulting - CEO",
-    desc: "Nunc fermentum - tempus erat ligula, sit amet lacinia justo cursus ac. Suspendisse quis nulla tincidunt! Lorem ipsum dolor amet at ornare ex, quis fringilla tortor! Nunc consectetur feugiat rutrum. Sed rhoncus sapien!",
+    post: "CEO, TechSolutions Inc.",
+    desc: "Working with your team has been an absolute pleasure. The level of professionalism and dedication shown in delivering our project was truly commendable. Highly recommended!",
   },
   {
     id: 2,
-    name: "Diana Green",
+    name: "John Smith",
     cover: "../images/e2.jpg",
-    post: "Seven Arts - marketing manager",
-    desc: "Cras at ornare fermentum quam et tortor euismod, vel maximus metus tristique at ornare ex, quis fringilla tortor. Aenean semper neque quis consectetur lobortis. Quisque nec convallis ex. Aenean ut metus et nunc cursus aliquet.",
+    post: "Marketing Director, DigitalWorks",
+    desc: "I've had the pleasure of collaborating with this agency on several projects, and each time they have exceeded expectations. Their innovative approach and attention to detail are unmatched.",
   },
   {
     id: 3,
-    name: "Alexander Black",
+    name: "Sophia Johnson",
     cover: "../images/e3.jpg",
-    post: "Seven consulting - CEO",
-    desc: "Nunc fermentum - tempus erat ligula, sit amet lacinia justo cursus ac. Suspendisse quis nulla tincidunt! Lorem ipsum dolor amet at ornare ex, quis fringilla tortor! Nunc consectetur feugiat rutrum. Sed rhoncus sapien!",
+    post: "Founder, Creativity Unlimited",
+    desc: "From conceptualization to execution, this team demonstrated exceptional creativity and expertise. Their solutions not only met our requirements but also surpassed our expectations. Thank you for your outstanding work!",
   },
   {
     id: 4,
-    name: "Diana Green",
+    name: "Michael Brown",
     cover: "../images/e4.jpg",
-    post: "Seven Arts - marketing manager",
-    desc: "Cras at ornare fermentum quam et tortor euismod, vel maximus metus tristique at ornare ex, quis fringilla tortor. Aenean semper neque quis consectetur lobortis. Quisque nec convallis ex. Aenean ut metus et nunc cursus aliquet.",
+    post: "Creative Director, Artistic Innovations",
+    desc: "I've been thoroughly impressed by the professionalism and creativity displayed by this agency. Their ability to understand and translate our vision into reality is truly commendable. Looking forward to future collaborations!",
   },
-]
+];
+
 export const showcase = [
   {
     id: 1,
@@ -114,7 +135,7 @@ export const showcase = [
     cover: "../images/s6.jpg",
     catgeory: "WEBSITES	",
   },
-]
+];
 export const brand = [
   {
     id: 1,
@@ -140,7 +161,7 @@ export const brand = [
     id: 6,
     cover: "../images/l6.svg",
   },
-]
+];
 export const blogdata = [
   {
     id: 1,
@@ -158,7 +179,8 @@ export const blogdata = [
   },
   {
     id: 3,
-    title: "Building the real VR lorem ipsum dolor amet glavrida from a scratch",
+    title:
+      "Building the real VR lorem ipsum dolor amet glavrida from a scratch",
     cover: "../images/b3.jpg",
     catgeory: "TIPS & TRICKS",
     date: "OCTOBER 9, 2023",
@@ -170,54 +192,19 @@ export const blogdata = [
     catgeory: "EVENTS",
     date: "OCTOBER 8, 2023",
   },
-]
+];
 export const teamdata = [
   {
     id: 1,
-    title: "Alexander Black",
-    cover: "../images/t1.jpg",
+    title: "Mohit Rajpoot",
+    cover: "../images/m1.jpg",
     post: "FOUNDER, CEO",
   },
-  {
-    id: 2,
-    title: "Anna Kovalenko",
-    cover: "../images/t2.jpg",
-    post: "FINANCE DIRECTOR",
-  },
-  {
-    id: 3,
-    title: "Tiffany White",
-    cover: "../images/t3.jpg",
-    post: "CREATIVE DIRECTOR",
-  },
-  {
-    id: 4,
-    title: "Richard Greenwood",
-    cover: "../images/t4.jpg",
-    post: "PROGRAMMER",
-  },
-  {
-    id: 5,
-    title: "Jessica Brown",
-    cover: "../images/t5.jpg",
-    post: "MARKETING DIRECTOR",
-  },
-  {
-    id: 6,
-    title: "Gregory Windstorm",
-    cover: "../images/t6.jpg",
-    post: "ACCOUNTING MANAGER",
-  },
-  {
-    id: 7,
-    title: "Anna Red",
-    cover: "../images/t7.jpg",
-    post: "PROJECT MANAGER",
-  },
+
   {
     id: 8,
     title: "Join our team!",
     cover: "../images/t8.jpg",
     post: "",
   },
-]
+];

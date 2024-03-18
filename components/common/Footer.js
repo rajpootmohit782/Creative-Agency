@@ -21,7 +21,7 @@ const Footer = () => {
               </span>
               <br />
               <br />
-              <h3>+1 001 234 5678</h3>
+              <h3>+91 936 831 2133</h3>
               <br />
               <button className="button-primary">Request for quote</button>
             </div>
@@ -92,7 +92,7 @@ const Footer = () => {
               <span>© 2024 THE MOHIT. ALL RIGHTS RESERVED.</span>
             </div>
             <div className="connect">
-              <span>MOHIT RAJPOOT</span>
+              <span>PRIVACY POLICY</span>
               <span> &nbsp; | &nbsp; </span>
               <span>TERMS & CONDITIONS</span>
             </div>
